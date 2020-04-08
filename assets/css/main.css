@@ -3165,3 +3165,14 @@ textarea.form-control {
 .accordion_card .card-body {
   font-size: 16px;
 }
+
+/* Custom CSS */
+.text-link {
+  color: #18181c;
+  font-weight: 500;
+}
+
+.text-link:hover {
+  color: #fb4002;
+  text-decoration: underline;
+}
