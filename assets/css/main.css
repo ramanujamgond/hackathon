@@ -132,7 +132,7 @@ ul.nosyely_list {
 .countdown {
   text-align: center;
 }
-.countdown div {
+.countdown .count-values {
   margin: 20px;
   display: inline-block;
   padding: 25px;
@@ -144,10 +144,16 @@ ul.nosyely_list {
   text-align: center;
   line-height: 1.2;
 }
-.countdown div span {
+.countdown .count-values p {
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.countdown .count-values span {
   display: block;
   font-size: 14px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .bg-img {
@@ -1788,9 +1794,9 @@ footer .footer_social li {
   margin: 5px;
 }
 footer .footer_social li a {
-  border: solid 1px #fb4002;
+  border: solid 1.2px #fb4002;
   display: block;
-  border-radius: 50px;
+  border-radius: 50%;
   padding: 7px 0;
   font-size: 24px;
   color: #fb4002;
@@ -3052,9 +3058,9 @@ Cover
   margin: 5px;
 }
 .social_list li a {
-  border: solid 1px #fb4002;
+  border: solid 1.2px #fb4002;
   display: block;
-  border-radius: 50px;
+  border-radius: 50%;
   padding: 7px 0;
   font-size: 24px;
   color: #fb4002;
@@ -3175,4 +3181,12 @@ textarea.form-control {
 .text-link:hover {
   color: #fb4002;
   text-decoration: underline;
+}
+
+.padding-top {
+  padding-top: 0px !important;
+}
+
+.ol-padding-top {
+  padding-top: 3%;
 }
