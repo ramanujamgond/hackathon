@@ -3190,3 +3190,17 @@ textarea.form-control {
 .ol-padding-top {
   padding-top: 3%;
 }
+
+.rule-problem-link {
+  color: #2e2e2e;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.rule-problem-link:hover {
+  color: #fb4002;
+}
+
+.video-wrap {
+  padding: 3%;
+}
